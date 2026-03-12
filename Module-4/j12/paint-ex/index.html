@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Paint</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="toolbar">
+    <label>
+      Couleur :
+      <input type="color" id="colorPicker" value="#000000" />
+    </label>
+
+    <label>
+      Colonnes :
+      <input type="number" id="colsInput" value="30" min="1" max="100">
+    </label>
+
+    <label>
+      Lignes :
+      <input type="number" id="rowsInput" value="20" min="1" max="100">
+    </label>
+
+    <button id="genBtn">Générer grille</button>
+
+    <label>
+      Forme :
+      <select id="shapeSelect">
+        <option value="square">Carré</option>
+        <option value="rectangle">Rectangle</option>
+        <option value="circle">Cercle</option>
+        <option value="triangle">Triangle</option>
+      </select>
+    </label>
+
+    <label>
+      Taille :
+      <input type="number" id="sizeInput" value="3" min="1" max="20">
+    </label>
+
+    <button id="saveBtn">Sauvegarder PNG</button>
+  </header>
+
+  <main>
+    <div id="grid"></div>
+  </main>
+
+  <!-- html2canvas -->
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@latest/dist/html2canvas.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+EXERCICE-3
+Agis comme un formateur expert en JavaScript.
+Génère un tableau au format Markdown contenant 5 liens de ressources en français,
+publiées il y a moins de 5 ans, qui expliquent l’implémentation de la Programmation Orientée Objet (POO) en JavaScript Vanilla.
+
+| Rang | Titre de la ressource | Type de ressource | Lien | Année |
+|------|-----------------------|-------------------|------|-------|
+| 1 | La POO en JavaScript (MDN Web Docs) | Documentation / Tutoriel | https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Classes | 2025 |
+| 2 | POO en JavaScript – Syntaxe des classes (JavaScript.info) | Tutoriel / Article | https://fr.javascript.info/class | 2023 |
+| 3 | Prototypes natifs en JavaScript (JavaScript.info) | Tutoriel / Article | https://fr.javascript.info/native-prototypes | 2023 |
+| 4 | Programmation orientée objet — concepts et méthodes (JavaScript.info) | Tutoriel / Article | https://fr.javascript.info/prototypes | 2023 |
+| 5 | Apprendre JavaScript – POO et prototypes (YouTube, coder de zéro) | Vidéo tutoriel | https://youtu.be/sH7Ick3kfuU | 2022 |

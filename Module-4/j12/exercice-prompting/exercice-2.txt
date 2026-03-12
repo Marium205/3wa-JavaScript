@@ -1,0 +1,12 @@
+EXERCICE-2
+Agis comme un spécialiste du marché de l’édition en France.
+Génère un tableau au format Markdown présentant les 5 auteurs
+ou autrices les plus vendus en France en 2014, classés du plus vendu au moins vendu.
+
+| Rang | Auteur / Autrice         | Nombre d’exemplaires vendus en France (2014) |
+|------|--------------------------|---------------------------------------------|
+| 1    | Guillaume Musso          | 1 631 200                                   |
+| 2    | Katherine Pancol         | 1 216 300                                   |
+| 3    | Marc Levy                | 998 900                                     |
+| 4    | Gilles Legardinier       | 890 800                                     |
+| 5    | Michel Bussi             | 843 000                                     |

@@ -1,0 +1,33 @@
+EXERCICE-4
+Agis comme un expert en accessibilité web (WCAG) et en HTML sémantique.
+Corrige et améliore l’accessibilité du code HTML entre <<< >>>, sans changer l’objectif (formulaire d’inscription).
+
+
+<form action="#" method="post" aria-labelledby="inscription-title">
+  <h2 id="inscription-title">Formulaire d'inscription</h2>
+
+  <div>
+    <label for="nom">Votre nom</label>
+    <input
+      type="text"
+      id="nom"
+      name="nom"
+      autocomplete="name"
+      required
+    />
+  </div>
+
+  <div>
+    <label for="email">Votre email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      autocomplete="email"
+      inputmode="email"
+      required
+    />
+  </div>
+
+  <button type="submit">Envoyer</button>
+</form>

@@ -1,0 +1,21 @@
+EXERCICE 1 – PROMPT
+
+Agis comme un historien spécialisé en politique française.
+Génère un tableau au format Markdown qui classe les présidents de la Ve République française
+en fonction de leur score au second tour de l’élection présidentielle, du plus élevé au plus faible,
+exprimé en pourcentage des suffrages exprimés.
+Le tableau devra contenir les colonnes : Président, Année de l’élection, Score au second tour (%).
+Réponds uniquement avec le tableau Markdown.
+
+| Rang | Président                  | Année de l'élection | Score au second tour (%) |
+|------|---------------------------|---------------------|---------------------------|
+| 1    | Jacques Chirac            | 2002                | 82,21                     |
+| 2    | Emmanuel Macron           | 2017                | 66,10                     |
+| 3    | Emmanuel Macron           | 2022                | 58,55                     |
+| 4    | Georges Pompidou          | 1969                | 57,58                     |
+| 5    | Charles de Gaulle         | 1965                | 55,20                     |
+| 6    | François Mitterrand       | 1981                | 51,76                     |
+| 7    | François Hollande         | 2012                | 51,62                     |
+| 8    | Jacques Chirac            | 1995                | 52,64                     |
+| 9    | Valéry Giscard d’Estaing  | 1974                | 50,81                     |
+| 10   | Nicolas Sarkozy           | 2007                | 53,06                     |
