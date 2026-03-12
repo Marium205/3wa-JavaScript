@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" >
+        <title>
+            Exercice 4 : changer d'onglet
+        </title>
+    </head>
+    <body>
+        <style>
+            p {
+                display: none;
+            }
+        </style>
+        <button id="tab-1">Onglet 1</button>
+        <button id="tab-2">Onglet 2</button>
+        <button id="tab-3">Onglet 3</button>
+        <p id="tab-1-content">
+            Je suis le contenu de l'onglet 1.
+        </p>
+        <p id="tab-2-content">
+            Je suis le contenu de l'onglet 2.
+        </p>
+        <p id="tab-3-content">
+            Je suis le contenu de l'onglet 3.
+        </p>
+    </body>
+    <script type="application/javascript" src="index.js"></script>
+</html>
